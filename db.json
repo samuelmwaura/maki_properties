@@ -1,122 +1,151 @@
 {
-    "properties":[
+  "properties": [
     {
-     "id":"1",
-     "name":"Watch Heights",
-     "availableUnits":"3",
-     "blockTypes":"one bedrooms",
-     "image":"https://maskanikenya.co.ke/assets/uploads/128257112_107093327902449_.jpg  ",
-     "location":"Ruiru",
-     "likes":"5",
-     "comments":[
-         "Nice Balconies.",
-         "The roof color is owoow!",
-         "A lil low finishings."
-     ],
-     "questions":[]
+      "id": "1",
+      "name": "Watch Heights",
+      "availableUnits": "3",
+      "blockTypes": "one bedrooms",
+      "image": "https://maskanikenya.co.ke/assets/uploads/128257112_107093327902449_.jpg  ",
+      "location": "Ruiru",
+      "likes": "5",
+      "comments": [
+        "Nice Balconies.",
+        "The roof color is owoow!",
+        "A lil low finishings."
+      ],
+      "questions": []
     },
     {
-        "id":"2",
-        "name":"Trace",
-        "availableUnits":"14",
-        "blockTypes":"Bedsitter units",
-        "image":"https://www.pmcestates.co.ke/wp-content/uploads/2021/01/IMG_6674-675x375.jpg",
-        "location":"RoySambu",
-        "likes":"3",
-        "comments":[],
-        "questions":[
-            "What is the amount of deposit that someone pays right front when letting?",
-            "How much is the amount to book a space and let it later?",
-            "Can someone change their interior designs after letting?",
-            "How many blocks are there in this apartment?",
-            "What is the response time for the support services?"
-        ]
-       },
-       {
-        "id":"3",
-        "name":"The Rand Roy",
-        "availableUnits":"3",
-        "blockTypes":"one bedrooms",
-        "image":"https://images.ctfassets.net/eoa1vvg9v30r/3Itu2BeMVTOcDrKh30ohso/7730dfcc870c0d10e8e2b416f9a9dce0/house-kasarani.png",
-        "location":"RoySambu",
-        "likes":"0",
-        "comments":[],
-        "questions":[
-            "How many blocks are there in this apartment?",
-            "What is the response time for the support services?"]
-       },
-       {
-        "id":"4",
-        "name":"Twist Batch",
-        "availableUnits":"3",
-        "blockTypes":"one bedrooms",
-        "image":"https://s3.us-east-2.amazonaws.com/images.propertypro.africa/large/1-bedroom-apartment-flat-zhMIE07zf9VNuWMGFGRl.png",
-        "location":"Ruiru",
-        "likes":"0",
-        "comments":[],
-        "questions":[
-            "How many blocks are there in this apartment?",
-            "What is the response time for the support services?"]
-       },{
-        "id":"5",
-        "name":"Eagle Heights",
-        "availableUnits":"3",
-        "blockTypes":"one bedrooms",
-        "image":"https://kultaproperties.com/public/uploads/property_attachment/avatar/1759/Image_10.jpg",
-        "location":"Kahawa",
-        "likes":"0",
-        "comments":[],
-        "questions":[
-            "How many blocks are there in this apartment?",
-            "What is the response time for the support services?"]
-       },{
-        "id":"6",
-        "name":"Tune Veil Barracks",
-        "availableUnits":"3",
-        "blockTypes":"one bedrooms",
-        "image":"https://www.eazzyrent.com/propertyimages/00022117101.jpg",
-        "location":"Kahawa",
-        "likes":"0",
-        "comments":[],
-        "questions":[
-            "How many blocks are there in this apartment?",
-            "What is the response time for the support services?"]
-       },{
-        "id":"7",
-        "name":"Vogue foot",
-        "availableUnits":"3",
-        "blockTypes":"one bedrooms",
-        "image":"https://i.roamcdn.net/prop/brk/listing-thumb-376w/8a6c18110a2e2029a81e0c901a1bec57/-/prod-property-core-backend-media-brk/3062995/fce2c867-ce5a-46d5-b18d-ef7bb564ae23.jpg",
-        "location":"Kiambu",
-        "likes":"0",
-        "comments":[],
-        "questions":[
-            "How many blocks are there in this apartment?",
-            "What is the response time for the support services?"]
-       },{
-        "id":"8",
-        "name":"Twin Heights",
-        "availableUnits":"3",
-        "blockTypes":"one bedrooms",
-        "image":"https://images.prop24.com/ccqvcseox6q5ikqs54jwmd2hzi/Crop676x507",
-        "location":"Ruiru",
-        "likes":"0",
-        "comments":[],
-        "questions":[
-            "How many blocks are there in this apartment?",
-            "What is the response time for the support services?"]
-       },{
-        "id":"9",
-        "name":"Wayne Towers",
-        "availableUnits":"3",
-        "blockTypes":"one bedrooms",
-        "image":"https://images.kenyapropertycentre.com/properties/images/3204/15f1da1cec8994-a-2-bedrooms-apartment-for-rent-nairobi-central-nairobi.jpg",
-        "location":"Kiambu",
-        "likes":"0",
-        "comments":[],
-        "questions":[
-            "How many blocks are there in this apartment?",
-            "What is the response time for the support services?"]
-       }
-]
+      "id": "2",
+      "name": "Trace",
+      "availableUnits": "14",
+      "blockTypes": "Bedsitter units",
+      "image": "https://www.pmcestates.co.ke/wp-content/uploads/2021/01/IMG_6674-675x375.jpg",
+      "location": "RoySambu",
+      "likes": "3",
+      "comments": [],
+      "questions": [
+        "What is the amount of deposit that someone pays right front when letting?",
+        "How much is the amount to book a space and let it later?",
+        "Can someone change their interior designs after letting?",
+        "How many blocks are there in this apartment?",
+        "What is the response time for the support services?"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "The Rand Roy",
+      "availableUnits": "3",
+      "blockTypes": "one bedrooms",
+      "image": "https://images.ctfassets.net/eoa1vvg9v30r/3Itu2BeMVTOcDrKh30ohso/7730dfcc870c0d10e8e2b416f9a9dce0/house-kasarani.png",
+      "location": "RoySambu",
+      "likes": "0",
+      "comments": [
+        "Am amazing place to burst.",
+        "The Grand Roy Rolls."
+      ],
+      "questions": [
+        "How many blocks are there in this apartment?",
+        "What is the response time for the support services?"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Twist Batch",
+      "availableUnits": "3",
+      "blockTypes": "one bedrooms",
+      "image": "https://s3.us-east-2.amazonaws.com/images.propertypro.africa/large/1-bedroom-apartment-flat-zhMIE07zf9VNuWMGFGRl.png",
+      "location": "Ruiru",
+      "likes": "0",
+      "comments": [
+        "A lil bit of risk from the low balconies.",
+        "",
+        "House in the woods and woods"
+      ],
+      "questions": [
+        "How many blocks are there in this apartment?",
+        "What is the response time for the support services?"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Eagle Heights",
+      "availableUnits": "3",
+      "blockTypes": "one bedrooms",
+      "image": "https://kultaproperties.com/public/uploads/property_attachment/avatar/1759/Image_10.jpg",
+      "location": "Kahawa",
+      "likes": "0",
+      "comments": [
+        "The windows are just a blast.",
+        "Amazing colour, great finsihngs, woonderful roofing."
+      ],
+      "questions": [
+        "How many blocks are there in this apartment?",
+        "What is the response time for the support services?"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Tune Veil Barracks",
+      "availableUnits": "3",
+      "blockTypes": "one bedrooms",
+      "image": "https://d2azlbvzqexp1.cloudfront.net/images/2022/May/26/kekztwnhyev/CV1_9wEoROwbN.jpeg",
+      "location": "Kahawa",
+      "likes": "0",
+      "comments": [
+        "I like the colour.",
+        "Great balconies.",
+        "Am amazing Daze."
+      ],
+      "questions": [
+        "How many blocks are there in this apartment?",
+        "What is the response time for the support services?"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Vogue foot",
+      "availableUnits": "3",
+      "blockTypes": "one bedrooms",
+      "image": "https://i.roamcdn.net/prop/brk/listing-thumb-376w/8a6c18110a2e2029a81e0c901a1bec57/-/prod-property-core-backend-media-brk/3062995/fce2c867-ce5a-46d5-b18d-ef7bb564ae23.jpg",
+      "location": "Kiambu",
+      "likes": "0",
+      "comments": [],
+      "questions": [
+        "How many blocks are there in this apartment?",
+        "What is the response time for the support services?"
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Twin Heights",
+      "availableUnits": "3",
+      "blockTypes": "one bedrooms",
+      "image": "https://images.prop24.com/ccqvcseox6q5ikqs54jwmd2hzi/Crop676x507",
+      "location": "Ruiru",
+      "likes": "0",
+      "comments": [],
+      "questions": [
+        "How many blocks are there in this apartment?",
+        "What is the response time for the support services?"
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Wayne Towers",
+      "availableUnits": "3",
+      "blockTypes": "one bedrooms",
+      "image": "https://images.kenyapropertycentre.com/properties/images/3204/15f1da1cec8994-a-2-bedrooms-apartment-for-rent-nairobi-central-nairobi.jpg",
+      "location": "Kiambu",
+      "likes": "0",
+      "comments": [
+        "Wonderful balconies.",
+        "The parking is just excellent, Big rooms for big movings"
+      ],
+      "questions": [
+        "How many blocks are there in this apartment?",
+        "What is the response time for the support services?"
+      ]
+    }
+  ]
 }

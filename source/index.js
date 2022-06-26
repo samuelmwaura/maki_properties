@@ -86,6 +86,8 @@ propertyFocused.comments.forEach(comment=>{
 addAcomment(propertyFocused);
 }
 
+
+//Add and display a comment.
 function addAcomment(propertyFocused){
 document.querySelector('#commentForm').addEventListener('submit',(event)=>{
 event.preventDefault();
