@@ -1,0 +1,17 @@
+#questionsTab{
+ background-color: blue;
+ position:absolute;
+ width:25em;
+ bottom:0em;
+ left: 74.5em;
+ height:10em;
+ overflow-y: scroll;
+ padding: 5px;
+ border-top-left-radius:15px;
+ position: fixed;
+}
+
+#main{
+ background-color: green;
+ height: 40em;
+}

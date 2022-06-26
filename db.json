@@ -1,0 +1,122 @@
+{
+    "properties":[
+    {
+     "id":"1",
+     "name":"Watch Heights",
+     "capacity":"3",
+     "blockTypes":"one bedrooms",
+     "image":"https://i.ytimg.com/vi/z4iRYXvfwtw/maxresdefault.jpg",
+     "location":"ruiru",
+     "likes":"5",
+     "comments":[
+         "Nice Balconies.",
+         "The roof color is owoow!",
+         "A lil low finishings."
+     ],
+     "questions":[]
+    },
+    {
+        "id":"2",
+        "name":"Trace",
+        "capacity":"14",
+        "blockTypes":"Bedsitter units",
+        "image":"https://i.ytimg.com/vi/z4iRYXvfwtw/maxresdefault.jpg",
+        "location":"RoySambu",
+        "likes":"3",
+        "comments":[],
+        "questions":[
+            "What is the amount of deposit that someone pays right front when letting?",
+            "How much is the amount to book a space and let it later?",
+            "Can someone change their interior designs after letting?",
+            "How many blocks are there in this apartment?",
+            "What is the response time for the support services?"
+        ]
+       },
+       {
+        "id":"3",
+        "name":"watch Ruiru",
+        "capacity":"3",
+        "blockTypes":"one bedrooms",
+        "image":"https://i.ytimg.com/vi/z4iRYXvfwtw/maxresdefault.jpg",
+        "location":"ruiru",
+        "likes":"0",
+        "comments":[],
+        "questions":[
+            "How many blocks are there in this apartment?",
+            "What is the response time for the support services?"]
+       },
+       {
+        "id":"4",
+        "name":"watch Ruiru",
+        "capacity":"3",
+        "blockTypes":"one bedrooms",
+        "image":"https://i.ytimg.com/vi/z4iRYXvfwtw/maxresdefault.jpg",
+        "location":"ruiru",
+        "likes":"0",
+        "comments":[],
+        "questions":[
+            "How many blocks are there in this apartment?",
+            "What is the response time for the support services?"]
+       },{
+        "id":"5",
+        "name":"watch Ruiru",
+        "capacity":"3",
+        "blockTypes":"one bedrooms",
+        "image":"https://i.ytimg.com/vi/z4iRYXvfwtw/maxresdefault.jpg",
+        "location":"ruiru",
+        "likes":"0",
+        "comments":[],
+        "questions":[
+            "How many blocks are there in this apartment?",
+            "What is the response time for the support services?"]
+       },{
+        "id":"6",
+        "name":"watch Ruiru",
+        "capacity":"3",
+        "blockTypes":"one bedrooms",
+        "image":"https://i.ytimg.com/vi/z4iRYXvfwtw/maxresdefault.jpg",
+        "location":"ruiru",
+        "likes":"0",
+        "comments":[],
+        "questions":[
+            "How many blocks are there in this apartment?",
+            "What is the response time for the support services?"]
+       },{
+        "id":"7",
+        "name":"watch Ruiru",
+        "capacity":"3",
+        "blockTypes":"one bedrooms",
+        "image":"https://i.ytimg.com/vi/z4iRYXvfwtw/maxresdefault.jpg",
+        "location":"ruiru",
+        "likes":"0",
+        "comments":[],
+        "questions":[
+            "How many blocks are there in this apartment?",
+            "What is the response time for the support services?"]
+       },{
+        "id":"8",
+        "name":"watch Ruiru",
+        "capacity":"3",
+        "blockTypes":"one bedrooms",
+        "image":"https://i.ytimg.com/vi/z4iRYXvfwtw/maxresdefault.jpg",
+        "location":"ruiru",
+        "likes":"0",
+        "comments":[],
+        "questions":[
+            "How many blocks are there in this apartment?",
+            "What is the response time for the support services?"]
+       },{
+        "id":"9",
+        "name":"watch Ruiru",
+        "capacity":"3",
+        "blockTypes":"one bedrooms",
+        "image":"https://i.ytimg.com/vi/z4iRYXvfwtw/maxresdefault.jpg",
+        "location":"ruiru",
+        "likes":"0",
+        "comments":[],
+        "questions":[
+            "How many blocks are there in this apartment?",
+            "What is the response time for the support services?"]
+       }
+]
+}
