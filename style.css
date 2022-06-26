@@ -1,7 +1,43 @@
 #main{
  background-color: green;
- height: 40em;
+ height: auto;
  width: 100%;
+}
+
+#propertiesList{
+ border-style:solid;
+ border-color: purple;
+ float: left;
+ width: 13em;
+ height:30em;
+ margin-top: 5em;
+ margin-left: 7px;
+ border-radius:20px;
+ list-style-type: disc;
+ display:none;
+}
+
+#onePropertyDetails{
+    margin-left:20em;
+    background-color: yellow;
+    height: 85vh;
+    display:none;
+  }
+
+#onePropertyDetails h2{
+    text-align: center;
+    margin-top:3em;
+    padding-top: 1em;
+}
+
+#onePropertyDetails img{
+    border-style: solid;
+    margin:1em 1em 1em 1em ;
+    float: left;
+    border-radius: 10px;
+    border-color: transparent;   
+    width: 40em;
+    height: 33em;
 }
 
 #properties{
@@ -45,4 +81,5 @@ display: inline-grid;
        margin-top: 2px; 
        margin-bottom: 2px;     
    }
+
 

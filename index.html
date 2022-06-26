@@ -4,8 +4,34 @@
     <link rel="stylesheet" href="./style.css">
     <body>
         <main id="main">
-        <div id="heading"><h2>Maki lets</h2></div>
-        <div id="navBar">This is the place we will show the menu</div>
+        <div id="heading"><h1>Maki lets</h1></div>
+        <nav id="navBar">
+           <ul id="propertiesList">
+               Properties
+            <li>See All Houses to let.</li>
+           </ul>
+        </nav>
+        <div id="onePropertyDetails">
+            <h2>The property name</h2>
+            <img src="/home/ace/Downloads/CodekeImage.wbep" alt="property">
+            <p>The type of the houses in the block</p>
+            <p>Location of the property</p>
+            <div><p style="float: left;">likes</p>
+                 <button>Like</button>
+                </div>
+            
+            <h3>Comments</h3>
+            <ul id="PropertyComments">
+             
+            </ul>
+            <p>
+              Add a comment:
+              <form action="">
+              <input type="text" id="comment"><br>
+              <input type="submit" id="submit">
+              </form>
+            </p>
+        </div>
         <div id="properties"></div>
         <div id="questionsTab"><h2>Common Property Questions.</h2> </div>
         </main>

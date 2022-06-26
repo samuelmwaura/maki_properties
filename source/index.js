@@ -1,9 +1,12 @@
+let propertiesArray = [];
 document.addEventListener('DOMContentLoaded',function (){
     fetch('http://localhost:3000/properties')
     .then(response=>response.json())
     .then(properties=>{
+      propertiesArray = [...properties];
       displayProperties(properties);
       displayQuestions(properties);
+      displayPropertyMenu(properties)
       })
     .catch(error=>console.log(error))
 });
@@ -28,6 +31,7 @@ function displayProperties(properties){
   const propertyCard = document.createElement('div');
   propertyCard.addEventListener('click',onCardClick);
   propertyCard.setAttribute('class','propertyCard');
+  propertyCard.setAttribute('id',property.id);
   const propertyImage = document.createElement('img');
   propertyImage.src = property.image;
   const propertyName = document.createElement('h3');
@@ -43,9 +47,41 @@ function displayProperties(properties){
   });
 }
 
-//function oncard click
+//display The list of properties.
+function displayPropertyMenu(properties){
+  const propertiesList = document.querySelector('#propertiesList');
+  properties.forEach(property=>{
+  const propertyItem = document.createElement('li');
+  propertyItem.textContent =`${property.name}   ${property.location}`;
+  propertiesList.appendChild(propertyItem);
+})
+};
+
+//When a property card is clicked
 function onCardClick(event){
-alert();  
+  document.querySelector('#propertiesList').style.display = 'block';
+  document.querySelector('#onePropertyDetails').style.display = 'block';
+  document.querySelectorAll('.propertyCard').forEach(card=>card.style.display = 'none')
+  const questions = document.querySelector('#questionsTab');
+  questions.style.height = '1.4em';
+  questions.addEventListener('click',()=>questions.style.height = '15em')
+  event.target.parentNode.id//get the value of the id of the div - the property's Id
+
+  const propertyFocused = propertiesArray.find(property=>property.id === event.target.parentNode.id);
+  displayAProperty(propertyFocused);
 } 
 
-//Function 
+//display Singe Item details in the main area
+function displayAProperty(propertyFocused){
+document.querySelector('#onePropertyDetails h2').textContent = propertyFocused.name;
+document.querySelector('#onePropertyDetails img').src = propertyFocused.image;
+document.querySelectorAll('#onePropertyDetails p')[0].textContent = propertyFocused.blockTypes;
+document.querySelectorAll('#onePropertyDetails p')[1].textContent = propertyFocused.location;
+document.querySelectorAll('#onePropertyDetails div p')[0].textContent = propertyFocused.likes;
+const commentList = document.querySelector('#PropertyComments');
+propertyFocused.comments.forEach(comment=>{
+  const newListComment = document.createElement('li')
+  newListComment.textContent = comment;
+  commentList.appendChild(newListComment)
+});
+}
