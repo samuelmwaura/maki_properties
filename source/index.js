@@ -39,10 +39,8 @@ function displayProperties(properties){
   const blockType = document.createElement('p');
   blockType.innerHTML = `${property.blockTypes} <br>Available units: ${property.availableUnits}`;
   const location = document.createElement('p');
-  location.textContent = property.location;
-  const propertyComments = document.createElement('div');
-  propertyComments.textContent = property.comments;  
-  propertyCard.append(propertyImage,propertyName,location,blockType,propertyComments);
+  location.textContent = property.location; 
+  propertyCard.append(propertyImage,propertyName,location,blockType);
   propertiesDiv.appendChild(propertyCard);
   });
 }
@@ -84,4 +82,30 @@ propertyFocused.comments.forEach(comment=>{
   newListComment.textContent = comment;
   commentList.appendChild(newListComment)
 });
+
+addAcomment(propertyFocused);
+}
+
+function addAcomment(propertyFocused){
+document.querySelector('#commentForm').addEventListener('submit',(event)=>{
+event.preventDefault();
+const enteredComment = document.querySelector('#comment').value
+propertyFocused.comments.unshift(enteredComment);
+ fetch(`http://localhost:3000/properties/${propertyFocused.id}`,{
+   method:'PATCH',
+   headers:{
+     'Content-Type':'application/json',
+     Accept:'application/json'
+   },
+   body:JSON.stringify({comments:propertyFocused.comments})
+ })
+ .then(response=>response.json())
+ .then(updatedProperty=>{
+  const newComment = document.createElement('li');
+  newComment.textContent = enteredComment
+  document.querySelector('#PropertyComments').appendChild(newComment);
+ })
+ .catch(error=>console.log(error))
+});
+
 }
