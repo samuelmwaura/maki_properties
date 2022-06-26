@@ -52,6 +52,12 @@ function displayPropertyMenu(properties){
   const propertyItem = document.createElement('li');
   propertyItem.textContent =`${property.name}   ${property.location}`;
   propertiesList.appendChild(propertyItem);
+
+  document.querySelector('#allProperties').addEventListener('click',function(){
+  document.querySelectorAll('.propertyCard').forEach(card=>card.style.display = 'inline-grid');
+  document.querySelector('#propertiesList').style.display = 'none';
+  document.querySelector('#onePropertyDetails').style.display = 'none';
+  });
 })
 };
 

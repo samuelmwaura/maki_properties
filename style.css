@@ -17,6 +17,9 @@
  display:none;
 }
 
+#propertiesList li{
+
+}
 #onePropertyDetails{
     margin-left:20em;
     background-color: yellow;
