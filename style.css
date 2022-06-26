@@ -1,17 +1,48 @@
-#questionsTab{
- background-color: blue;
- position:absolute;
- width:25em;
- bottom:0em;
- left: 74.5em;
- height:10em;
- overflow-y: scroll;
- padding: 5px;
- border-top-left-radius:15px;
- position: fixed;
-}
-
 #main{
  background-color: green;
  height: 40em;
+ width: 100%;
 }
+
+#properties{
+ background-color: grey;
+}
+.propertyCard{
+border-style: solid;
+border-color: green;
+border-width: 1px;
+width:20em;
+height:24em;
+margin-left:30px;
+margin-bottom:5px;
+padding: 10px;
+display: inline-grid;
+}
+
+.propertyCard img{
+ width: 20em;
+ height:12em
+}
+
+#questionsTab{
+    background-color: blue;
+    position:absolute;
+    width:25em;
+    bottom:0em;
+    left: 74.5em;
+    height:12em;
+    overflow-y: scroll;
+    padding: 5px;
+    border-top-left-radius:15px;
+    position: fixed;
+   }
+   
+   #questionsTab h2{
+       margin-top: 3px;      
+   }
+
+   .propertyCard p{
+       margin-top: 2px; 
+       margin-bottom: 2px;     
+   }
+

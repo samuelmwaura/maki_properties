@@ -26,17 +26,26 @@ function displayProperties(properties){
   const propertiesDiv = document.querySelector('#properties');
   properties.forEach(property=>{
   const propertyCard = document.createElement('div');
+  propertyCard.addEventListener('click',onCardClick);
+  propertyCard.setAttribute('class','propertyCard');
   const propertyImage = document.createElement('img');
   propertyImage.src = property.image;
   const propertyName = document.createElement('h3');
   propertyName.textContent = property.name;
   const blockType = document.createElement('p');
-  blockType.textContent = property.blockTypes;
+  blockType.innerHTML = `${property.blockTypes} <br>Available units: ${property.availableUnits}`;
   const location = document.createElement('p');
   location.textContent = property.location;
   const propertyComments = document.createElement('div');
   propertyComments.textContent = property.comments;  
-  propertyCard.append(propertyImage,propertyName,blockType,location,propertyComments);
+  propertyCard.append(propertyImage,propertyName,location,blockType,propertyComments);
   propertiesDiv.appendChild(propertyCard);
   });
 }
+
+//function oncard click
+function onCardClick(event){
+alert();  
+} 
+
+//Function 
