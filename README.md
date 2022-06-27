@@ -1,7 +1,8 @@
 # Maki Properties.
 
-Maki properties is a property management support site for Maki house managers and property controllers.  The site is used to displya the various houses in the various that have been placed under the care of Maki. Maki is an agency firm that upon the willingness of the rental apartment owner, take full charge of the apartment and become instantly responsible for rent collection, advertisement of empty rooms and maintenance.
-From Maki properties site, prospects can be able to view all the houses, select and explode on a property card to view details and actually leave a comment on the property. This enences the sites interactivity.
+Maki properties is a property management support site for Maki house managers and property controllers.  The site is used to display the various houses in the various locations that have been placed under their care. Maki is an agency firm that upon the willingness of the rental apartment owner, takes full charge of the apartment and become instantly responsible for rent collection, advertisement of empty rooms and maintenance.
+From Maki properties site, prospects can be able to view all the houses, select and explode on a property card to view details and actually leave a comment on the property. 
+The propects can further be able to filter and view houses form their preferred areas where Maki has houses.Once a user explodes on a property, they can be able to view all the details of the property including availability,type and actually expression opinion by favouriting or leaving a comment.
 
 ## Technologies.
 
