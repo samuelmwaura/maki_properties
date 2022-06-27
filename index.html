@@ -2,9 +2,21 @@
 <html>
     <title>Maki Properties.</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap" rel="stylesheet">
     <body>
         <main id="main">
-        <div id="heading"><h1>Maki lets</h1></div>
+        <div id="heading"><h1>Maki lets..</h1>
+            <select id="filter">
+                <option value="all">All Houses</option>
+                <option value="Kahawa">Kahawa</option>
+                <option value="Ruiru">Ruiru</option>
+                <option value="zimmerman">Zimmerman</option>
+                <option value="RoySambu">RoySambu</option>
+                <option value="InnerCore">InnerCore</option>
+                <option value="Kiambu">Kiambu</option>
+            </select></div>
         <nav id="navBar">
            <ul id="propertiesList">
                Properties
@@ -25,9 +37,8 @@
              
             </ul>
             <p>
-              Add a comment:
               <form action="" id="commentForm">
-              <input type="text" id="comment"><br>
+              <label for="comment">Add a comment: <br><textarea id="comment" cols="40" rows="5" placeholder="Enter your comment."></textarea></label><br>
               <input type="submit" id="submit">
               </form>
             </p>

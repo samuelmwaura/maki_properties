@@ -9,6 +9,7 @@
       "location": "Ruiru",
       "likes": "5",
       "comments": [
+        "Trial of the comment.",
         "Ocre red red",
         "Nice Balconies.",
         "The roof color is owoow!",
@@ -165,7 +166,8 @@
         "How many blocks are there in this apartment?",
         "What is the response time for the support services?"
       ]
-    },{
+    },
+    {
       "id": "12",
       "name": "Wings View",
       "availableUnits": "2",
@@ -181,7 +183,8 @@
         "How many blocks are there in this apartment?",
         "What is the response time for the support services?"
       ]
-    },{
+    },
+    {
       "id": "13",
       "name": "Li Paletu",
       "availableUnits": "0",
@@ -196,7 +199,8 @@
         "How many blocks are there in this apartment?",
         "What is the response time for the support services?"
       ]
-    },{
+    },
+    {
       "id": "14",
       "name": "Muraho Hangs",
       "availableUnits": "4",
@@ -212,7 +216,8 @@
         "How many blocks are there in this apartment?",
         "What is the response time for the support services?"
       ]
-    },{
+    },
+    {
       "id": "15",
       "name": "The Looks",
       "availableUnits": "0",
@@ -228,7 +233,8 @@
         "How many blocks are there in this apartment?",
         "What is the response time for the support services?"
       ]
-    },{
+    },
+    {
       "id": "16",
       "name": "Panther",
       "availableUnits": "3",
@@ -244,7 +250,8 @@
         "How many blocks are there in this apartment?",
         "What is the response time for the support services?"
       ]
-    },{
+    },
+    {
       "id": "17",
       "name": "Jimca Arcade",
       "availableUnits": "2",
@@ -260,7 +267,8 @@
         "How many blocks are there in this apartment?",
         "What is the response time for the support services?"
       ]
-    },{
+    },
+    {
       "id": "18",
       "name": "The Colour",
       "availableUnits": "0",
@@ -276,7 +284,8 @@
         "How many blocks are there in this apartment?",
         "What is the response time for the support services?"
       ]
-    },{
+    },
+    {
       "id": "19",
       "name": "Big Canopy",
       "availableUnits": "9",
@@ -292,7 +301,8 @@
         "How many blocks are there in this apartment?",
         "What is the response time for the support services?"
       ]
-    },{
+    },
+    {
       "id": "20",
       "name": "The Pinacle",
       "availableUnits": "3",
@@ -308,7 +318,8 @@
         "How many blocks are there in this apartment?",
         "What is the response time for the support services?"
       ]
-    },{
+    },
+    {
       "id": "21",
       "name": "Fortress",
       "availableUnits": "4",
@@ -324,7 +335,8 @@
         "How many blocks are there in this apartment?",
         "What is the response time for the support services?"
       ]
-    },{
+    },
+    {
       "id": "22",
       "name": "Tripple O's",
       "availableUnits": "1",
@@ -340,7 +352,8 @@
         "How many blocks are there in this apartment?",
         "What is the response time for the support services?"
       ]
-    },{
+    },
+    {
       "id": "23",
       "name": "Gravitation",
       "availableUnits": "0",
@@ -356,7 +369,8 @@
         "How many blocks are there in this apartment?",
         "What is the response time for the support services?"
       ]
-    },{
+    },
+    {
       "id": "24",
       "name": "The Capital",
       "availableUnits": "3",
@@ -372,7 +386,8 @@
         "How many blocks are there in this apartment?",
         "What is the response time for the support services?"
       ]
-    },{
+    },
+    {
       "id": "25",
       "name": "Plot 546",
       "availableUnits": "2",
@@ -388,12 +403,13 @@
         "How many blocks are there in this apartment?",
         "What is the response time for the support services?"
       ]
-    },{
+    },
+    {
       "id": "26",
       "name": "Kimson",
       "availableUnits": "0",
       "blockTypes": "Three Bedrooms",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbYf3vX9AUw0ikVf3N2R5Tg_U-2E-lWVzMgg&usqp=CAU",
+      "image": "https://ak-d.tripcdn.com/images/220j180000014kud6EC05_Z_550_412_R5_Q70_D.jpg",
       "location": "Utawala",
       "likes": "32",
       "comments": [
@@ -404,7 +420,8 @@
         "How many blocks are there in this apartment?",
         "What is the response time for the support services?"
       ]
-    },{
+    },
+    {
       "id": "27",
       "name": "Glass Corridors",
       "availableUnits": "1",
@@ -420,7 +437,8 @@
         "How many blocks are there in this apartment?",
         "What is the response time for the support services?"
       ]
-    },{
+    },
+    {
       "id": "28",
       "name": "The pine",
       "availableUnits": "3",
@@ -436,7 +454,8 @@
         "How many blocks are there in this apartment?",
         "What is the response time for the support services?"
       ]
-    },{
+    },
+    {
       "id": "29",
       "name": "Fading views",
       "availableUnits": "0",
@@ -452,7 +471,8 @@
         "How many blocks are there in this apartment?",
         "What is the response time for the support services?"
       ]
-    },{
+    },
+    {
       "id": "30",
       "name": "Spilly Spiral",
       "availableUnits": "2",

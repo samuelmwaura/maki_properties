@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded',function (){
       displayProperties(properties);
       displayQuestions(properties);
       displayPropertyMenu(properties)
+      enableFilter()
       })
     .catch(error=>console.log(error))
 });
@@ -64,6 +65,7 @@ function displayPropertyMenu(properties){
   document.querySelectorAll('.propertyCard').forEach(card=>card.style.display = 'inline-grid');
   document.querySelector('#propertiesList').style.display = 'none';
   document.querySelector('#onePropertyDetails').style.display = 'none';
+  document.querySelector('#filter').disabled = false;
   });
 })
 };
@@ -74,6 +76,7 @@ function onCardClick(event){
   document.querySelector('#propertiesList').style.display = 'block';
   document.querySelector('#onePropertyDetails').style.display = 'block';
   document.querySelectorAll('.propertyCard').forEach(card=>card.style.display = 'none')
+  document.querySelector('#filter').disabled = true;
   const questions = document.querySelector('#questionsTab');
   questions.style.height = '1.4em';
   questions.addEventListener('click',()=>questions.style.height = '15em') 
@@ -89,7 +92,7 @@ document.querySelectorAll('#onePropertyDetails p')[0].textContent = propertyFocu
 document.querySelectorAll('#onePropertyDetails p')[1].textContent = propertyFocused.location;
 document.querySelectorAll('#onePropertyDetails div p')[0].textContent = propertyFocused.likes;
 const commentList = document.querySelector('#PropertyComments');
-Array.from(commentList.children).forEach(child=>child.remove());  //remove listed create by the previous displayed property.
+Array.from(commentList.children).forEach(child=>child.remove());  //remove list created by the previous displayed property.
 propertyFocused.comments.forEach(comment=>{
   const newListComment = document.createElement('li')
   newListComment.textContent = comment;
@@ -123,4 +126,18 @@ propertyFocused.comments.unshift(enteredComment);
  .catch(error=>console.log(error))
 });
 
+}
+
+//Functionality to enable a customer to filter just what they want to see.
+function enableFilter(){
+document.getElementById('filter').addEventListener('change',(event)=>{
+if(event.target.value === 'all'){
+  Array.from(document.querySelector('#properties').children).forEach(child=>child.remove())
+  displayProperties(propertiesArray)}
+else{
+  const filteredProperties = propertiesArray.filter(property=> property.location === event.target.value);
+  Array.from(document.querySelector('#properties').children).forEach(child=>child.remove())
+  displayProperties(filteredProperties)
+  };
+});;
 }
