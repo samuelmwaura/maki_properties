@@ -38,7 +38,7 @@ function displayProperties(properties){
   const propertyName = document.createElement('h3');
   propertyName.textContent = property.name;
   const blockType = document.createElement('p');
-  blockType.innerHTML = `${property.blockTypes} <br>Available units: ${property.availableUnits}`;
+  blockType.innerHTML = property.blockTypes;
   const location = document.createElement('p');
   location.textContent = property.location; 
   propertyCard.append(propertyImage,propertyName,location,blockType);
@@ -86,7 +86,7 @@ function onCardClick(event){
 
 //display Singe Item details in the main area
 function displayAProperty(propertyFocused){
-document.querySelector('#onePropertyDetails h2').textContent = propertyFocused.name;
+document.querySelector('#onePropertyDetails h2').textContent = `${propertyFocused.name} ${propertyFocused.location}`;
 document.querySelector('#onePropertyDetails img').src = propertyFocused.image;
 document.querySelectorAll('#onePropertyDetails p')[0].textContent = propertyFocused.blockTypes;
 document.querySelectorAll('#onePropertyDetails p')[1].textContent = propertyFocused.location;
