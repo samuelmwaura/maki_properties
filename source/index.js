@@ -90,8 +90,9 @@ function displayAProperty(propertyFocused){
 document.querySelector('#onePropertyDetails h2').textContent = `${propertyFocused.name} ${propertyFocused.location}`;
 document.querySelector('#onePropertyDetails img').src = propertyFocused.image;
 document.querySelectorAll('#onePropertyDetails p')[0].textContent = propertyFocused.blockTypes;
-document.querySelectorAll('#onePropertyDetails p')[1].textContent = `Located in ${propertyFocused.location}`;
-document.querySelectorAll('#onePropertyDetails p')[2].textContent =  `${propertyFocused.likes} Likes.`;
+document.querySelectorAll('#onePropertyDetails p')[1].textContent = `Located in ${propertyFocused.location}.`;
+document.querySelectorAll('#onePropertyDetails p')[2].textContent =  `${propertyFocused.availableUnits} Free Units.`;
+document.querySelectorAll('#onePropertyDetails p')[3].textContent =  `${propertyFocused.likes} Likes.`;
 document.querySelector('#likeButton').textContent = `♥ ${propertyFocused.likes}`
 const commentList = document.querySelector('#PropertyComments');
 Array.from(commentList.children).forEach(child=>child.remove());  //remove list created by the previous displayed property.
@@ -144,7 +145,7 @@ document.querySelector('#likeButton').addEventListener('click',(event)=>{
   .then(response=>response.json())
   .then(likedProperty=>{
     document.querySelector('#likeButton').textContent = `♥ ${likedProperty.likes}`
-    document.querySelectorAll('#onePropertyDetails p')[2].textContent =  `${likedProperty.likes} Likes.`;
+    document.querySelectorAll('#onePropertyDetails p')[3].textContent =  `${likedProperty.likes} Likes.`;
   })
   .catch(error=>console.log(error))
 })
