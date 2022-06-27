@@ -13,9 +13,10 @@ background-color:grey;
 
 #heading{
 text-align: center;
+height: 6em;
 border-top-left-radius: 25px;
 border-top-right-radius: 25px;
-padding-top: 5px;
+padding-top:0px;
 border-color: transparent;
 border-style: solid;
 border-bottom: 1px;
@@ -23,15 +24,21 @@ background-color:cadetblue;
 }
 
 #heading h1{
-margin-bottom: 3px;
-font-size: 2.3em;
-font-family: 'Rubik Moonrocks', cursive;
+margin-bottom:1px;
+font-size: 4em;
+font-weight: 500;
+font-family: 'Yellowtail', cursive;
 margin-top: 5px;
+}
+
+#heading h1 em{
+ color: maroon;
 }
 
 #heading #filter{
 position: relative;
 left:49em;
+bottom:2em;
 margin-bottom: 5px;
 width: 8em;
 height: 2em;
@@ -52,9 +59,6 @@ border-top-left-radius: 10px;
  display:none;
 }
 
-#propertiesList li{
-
-}
 #onePropertyDetails{
     margin-left:20em;
     background-color: yellow;
@@ -94,6 +98,12 @@ margin-bottom:5px;
 padding: 10px;
 display: inline-grid;
 
+}
+
+.propertyCard h3{
+    font-family: 'Indie Flower', cursive;
+    font-size:2em;
+    margin-bottom:5px;
 }
 
 .propertyCard img{
