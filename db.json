@@ -7,8 +7,9 @@
       "blockTypes": "one bedrooms",
       "image": "https://maskanikenya.co.ke/assets/uploads/128257112_107093327902449_.jpg  ",
       "location": "Ruiru",
-      "likes": "5",
+      "likes": 1,
       "comments": [
+        "",
         "Trial of the comment.",
         "Ocre red red",
         "Nice Balconies.",
@@ -25,7 +26,10 @@
       "image": "https://www.pmcestates.co.ke/wp-content/uploads/2021/01/IMG_6674-675x375.jpg",
       "location": "RoySambu",
       "likes": "3",
-      "comments": [],
+      "comments": [
+        "Faded grey stones really literally rock.",
+        ""
+      ],
       "questions": [
         "What is the amount of deposit that someone pays right front when letting?",
         "How much is the amount to book a space and let it later?",
@@ -41,7 +45,7 @@
       "blockTypes": "one bedrooms",
       "image": "https://images.ctfassets.net/eoa1vvg9v30r/3Itu2BeMVTOcDrKh30ohso/7730dfcc870c0d10e8e2b416f9a9dce0/house-kasarani.png",
       "location": "RoySambu",
-      "likes": "6",
+      "likes": 31,
       "comments": [
         "Am amazing place to burst.",
         "The Grand Roy Rolls."
@@ -60,6 +64,7 @@
       "location": "Ruiru",
       "likes": "0",
       "comments": [
+        "",
         "A lil bit of risk from the low balconies.",
         "House in the woods and woods"
       ],
@@ -75,8 +80,9 @@
       "blockTypes": "one bedrooms",
       "image": "https://kultaproperties.com/public/uploads/property_attachment/avatar/1759/Image_10.jpg",
       "location": "Kahawa",
-      "likes": "0",
+      "likes": 1,
       "comments": [
+        "",
         "The windows are just a blast.",
         "Amazing colour, great finsihngs, woonderful roofing."
       ],
@@ -92,8 +98,9 @@
       "blockTypes": "one bedrooms",
       "image": "https://d2azlbvzqexp1.cloudfront.net/images/2022/May/26/kekztwnhyev/CV1_9wEoROwbN.jpeg",
       "location": "Kahawa",
-      "likes": "0",
+      "likes": 37,
       "comments": [
+        "",
         "I like the colour.",
         "Great balconies.",
         "Am amazing Daze."
@@ -110,7 +117,7 @@
       "blockTypes": "one bedrooms",
       "image": "https://i.roamcdn.net/prop/brk/listing-thumb-376w/8a6c18110a2e2029a81e0c901a1bec57/-/prod-property-core-backend-media-brk/3062995/fce2c867-ce5a-46d5-b18d-ef7bb564ae23.jpg",
       "location": "Kiambu",
-      "likes": "0",
+      "likes": 5,
       "comments": [],
       "questions": [
         "How many blocks are there in this apartment?",
@@ -126,6 +133,8 @@
       "location": "Ruiru",
       "likes": "0",
       "comments": [
+        "",
+        "",
         "Hanging  lines and frets.",
         "Tiled balconies."
       ],
@@ -141,7 +150,7 @@
       "blockTypes": "Two bedrooms",
       "image": "https://images.kenyapropertycentre.com/properties/images/3204/15f1da1cec8994-a-2-bedrooms-apartment-for-rent-nairobi-central-nairobi.jpg",
       "location": "Kiambu",
-      "likes": "7",
+      "likes": 20,
       "comments": [
         "The staircase is just replendent.",
         "The parking is just excellent, Big rooms for big movings"
@@ -158,7 +167,7 @@
       "blockTypes": "Bed sitters",
       "image": "https://business2commerce.com/wp-content/uploads/2020/12/FLAT-ZIMMERMAN.jpg",
       "location": "Kahawa",
-      "likes": "25",
+      "likes": 38,
       "comments": [
         "The air in here is just it"
       ],
@@ -191,7 +200,7 @@
       "blockTypes": "Bed sitters",
       "image": "https://pictures-kenya.jijistatic.com/20050684_MTYwMC0xMjAwLWJiODk1MGRlYjc.jpg",
       "location": "zimmerman",
-      "likes": "27",
+      "likes": 40,
       "comments": [
         "Water is never an issue"
       ],
@@ -209,6 +218,8 @@
       "location": "zimmerman",
       "likes": "23",
       "comments": [
+        "",
+        "",
         "Can never leave here",
         "The parking is just excellent, Big rooms for big movings"
       ],
@@ -224,7 +235,7 @@
       "blockTypes": "Two bedrooms",
       "image": "http://nyumbalink.com/file_upload/images/listing/files/1522165472_5945_555668714476323_199319.gif",
       "location": "Kahawa",
-      "likes": "11",
+      "likes": 24,
       "comments": [
         "Just the colour, a lil bit.",
         "The waal shade, some bit yuckish."
@@ -243,6 +254,7 @@
       "location": "Zimmerman",
       "likes": "2",
       "comments": [
+        "",
         "Quite a huge issue with water.",
         "Spacious rooms though."
       ],
@@ -277,6 +289,7 @@
       "location": "Kahawa",
       "likes": "17",
       "comments": [
+        "",
         "waste collection a bit wanting.",
         "The mainteners do ther homework."
       ],
@@ -294,6 +307,7 @@
       "location": "zimmerman",
       "likes": "5",
       "comments": [
+        "",
         "The city council should just close this place down.",
         "A rude caretaker."
       ],

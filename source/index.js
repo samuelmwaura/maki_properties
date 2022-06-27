@@ -53,9 +53,10 @@ function displayPropertyMenu(properties){
   const propertyItem = document.createElement('li');
   propertyItem.textContent =property.name;
   propertyItem.addEventListener('mouseover',(event)=> event.target.style.color = 'brown');
-  propertyItem.addEventListener('mouseout',(event)=> event.target.style.color = 'inherit');
+  propertyItem.addEventListener('mouseout',(event)=> {event.target.style.color = 'inherit'; event.target.style.backgroundColor = 'inherit'});
   propertyItem.addEventListener('click',function(event){
   const clickedProperty = propertiesArray .find(property=>property.name === event.target.textContent);
+  event.target.style.backgroundColor = 'grey'
   displayAProperty(clickedProperty)   //To display the details of the clicked property.
   });
   propertiesList.appendChild(propertyItem);
@@ -89,8 +90,9 @@ function displayAProperty(propertyFocused){
 document.querySelector('#onePropertyDetails h2').textContent = `${propertyFocused.name} ${propertyFocused.location}`;
 document.querySelector('#onePropertyDetails img').src = propertyFocused.image;
 document.querySelectorAll('#onePropertyDetails p')[0].textContent = propertyFocused.blockTypes;
-document.querySelectorAll('#onePropertyDetails p')[1].textContent = propertyFocused.location;
-document.querySelectorAll('#onePropertyDetails div p')[0].textContent = propertyFocused.likes;
+document.querySelectorAll('#onePropertyDetails p')[1].textContent = `Located in ${propertyFocused.location}`;
+document.querySelectorAll('#onePropertyDetails p')[2].textContent =  `${propertyFocused.likes} Likes.`;
+document.querySelector('#likeButton').textContent = `♥ ${propertyFocused.likes}`
 const commentList = document.querySelector('#PropertyComments');
 Array.from(commentList.children).forEach(child=>child.remove());  //remove list created by the previous displayed property.
 propertyFocused.comments.forEach(comment=>{
@@ -98,8 +100,8 @@ propertyFocused.comments.forEach(comment=>{
   newListComment.textContent = comment;
   commentList.appendChild(newListComment)
 });
-
 addAcomment(propertyFocused);
+addAlike(propertyFocused);
 }
 
 
@@ -126,6 +128,26 @@ propertyFocused.comments.unshift(enteredComment);
  .catch(error=>console.log(error))
 });
 
+}
+
+function addAlike(propertyFocused){
+document.querySelector('#likeButton').addEventListener('click',(event)=>{
+  propertyFocused.likes = parseInt(propertyFocused.likes) + 1;
+  fetch(`http://localhost:3000/properties/${propertyFocused.id}`,{
+    method:'PATCH',
+    headers:{
+      "Content-Type":'application/json',
+       Accept:'application/json'
+    },
+    body:JSON.stringify({likes:propertyFocused.likes})
+  })
+  .then(response=>response.json())
+  .then(likedProperty=>{
+    document.querySelector('#likeButton').textContent = `♥ ${likedProperty.likes}`
+    document.querySelectorAll('#onePropertyDetails p')[2].textContent =  `${likedProperty.likes} Likes.`;
+  })
+  .catch(error=>console.log(error))
+})
 }
 
 //Functionality to enable a customer to filter just what they want to see.

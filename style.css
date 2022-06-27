@@ -49,19 +49,26 @@ border-top-left-radius: 10px;
 #propertiesList{
  border-style:solid;
  border-color: cadetblue;
+ background-color: cadetblue;
+ overflow-y: scroll;
  float: left;
  width: 13em;
- height:auto;
- margin-top:2em;
+ height:39em;
+ margin-top:1em;
  margin-left: 7px;
  border-radius:20px;
  list-style-type: none;
  display:none;
 }
 
+#propertiesList li{
+    font-size: 1.5em;
+    border-radius:10px;
+    margin-bottom: 3px;
+}
+
 #onePropertyDetails{
-    margin-left:20em;
-    background-color: yellow;
+    margin-left:17em;
     height: 85vh;
     display:none;
   }
@@ -70,17 +77,34 @@ border-top-left-radius: 10px;
     text-align: center;
     padding-top: 0.1em;
     font-family: 'Indie Flower', cursive;
-    font-size: 2.5em;
+    font-size: 2.9em;
+    color: maroon;
 }
 
 #onePropertyDetails img{
     border-style: solid;
-    margin:1em 4em 1em 1em ;
+    margin:0.1em 4em 1em 1em ;
     float: left;
     border-radius: 10px;
     border-color: transparent;   
     width: 40em;
-    height: 37em;
+    height: 39em;
+}
+#onePropertyDetails p{
+    font-size:1.5em;
+}
+#onePropertyDetails #likeButton{
+    font-size:1.5em;
+    color: maroon;
+    width:4em;
+}
+#onePropertyDetails li{
+    font-size:1.3em;
+    list-style: none;
+    font-style: italic;
+}
+#onePropertyDetails input,textarea,#likeButton{
+    border-radius: 10px;
 }
 
 #properties{
