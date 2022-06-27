@@ -1,6 +1,8 @@
 #main{
  background-color: green;
  height: auto;
+ left:0px;
+ top:0px;
  width: 100%;
 }
 
@@ -9,7 +11,7 @@
  border-color: purple;
  float: left;
  width: 13em;
- height:30em;
+ height:auto;
  margin-top: 5em;
  margin-left: 7px;
  border-radius:20px;

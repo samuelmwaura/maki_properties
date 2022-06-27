@@ -9,6 +9,7 @@
       "location": "Ruiru",
       "likes": "5",
       "comments": [
+        "Ocre red red",
         "Nice Balconies.",
         "The roof color is owoow!",
         "A lil low finishings."
@@ -39,7 +40,7 @@
       "blockTypes": "one bedrooms",
       "image": "https://images.ctfassets.net/eoa1vvg9v30r/3Itu2BeMVTOcDrKh30ohso/7730dfcc870c0d10e8e2b416f9a9dce0/house-kasarani.png",
       "location": "RoySambu",
-      "likes": "0",
+      "likes": "6",
       "comments": [
         "Am amazing place to burst.",
         "The Grand Roy Rolls."
@@ -53,13 +54,12 @@
       "id": "4",
       "name": "Twist Batch",
       "availableUnits": "3",
-      "blockTypes": "one bedrooms",
+      "blockTypes": "Two bedrooms",
       "image": "https://s3.us-east-2.amazonaws.com/images.propertypro.africa/large/1-bedroom-apartment-flat-zhMIE07zf9VNuWMGFGRl.png",
       "location": "Ruiru",
       "likes": "0",
       "comments": [
         "A lil bit of risk from the low balconies.",
-        "",
         "House in the woods and woods"
       ],
       "questions": [
@@ -120,27 +120,349 @@
       "id": "8",
       "name": "Twin Heights",
       "availableUnits": "3",
-      "blockTypes": "one bedrooms",
+      "blockTypes": "Bed sitters",
       "image": "https://images.prop24.com/ccqvcseox6q5ikqs54jwmd2hzi/Crop676x507",
       "location": "Ruiru",
       "likes": "0",
-      "comments": [],
+      "comments": [
+        "Hanging  lines and frets.",
+        "Tiled balconies."
+      ],
       "questions": [
         "How many blocks are there in this apartment?",
         "What is the response time for the support services?"
       ]
     },
     {
-      "id": "9",
-      "name": "Wayne Towers",
-      "availableUnits": "3",
-      "blockTypes": "one bedrooms",
+      "id": "10",
+      "name": "Hossana Arcade",
+      "availableUnits": "8",
+      "blockTypes": "Two bedrooms",
       "image": "https://images.kenyapropertycentre.com/properties/images/3204/15f1da1cec8994-a-2-bedrooms-apartment-for-rent-nairobi-central-nairobi.jpg",
       "location": "Kiambu",
+      "likes": "7",
+      "comments": [
+        "The staircase is just replendent.",
+        "The parking is just excellent, Big rooms for big movings"
+      ],
+      "questions": [
+        "How many blocks are there in this apartment?",
+        "What is the response time for the support services?"
+      ]
+    },
+    {
+      "id": "11",
+      "name": "The Boom",
+      "availableUnits": "1",
+      "blockTypes": "Bed sitters",
+      "image": "https://business2commerce.com/wp-content/uploads/2020/12/FLAT-ZIMMERMAN.jpg",
+      "location": "Kahawa",
+      "likes": "25",
+      "comments": [
+        "The air in here is just it"
+      ],
+      "questions": [
+        "How many blocks are there in this apartment?",
+        "What is the response time for the support services?"
+      ]
+    },{
+      "id": "12",
+      "name": "Wings View",
+      "availableUnits": "2",
+      "blockTypes": "Two bedrooms",
+      "image": "https://images1.apartments.com/i2/J_aVVDy_P8WN_Ll70vEmRX8ezEdFGkhP52u-ORsl2mg/117/depot-on-main-zimmerman-mn-primary-photo.jpg",
+      "location": "Kiambu",
+      "likes": "31",
+      "comments": [
+        "I like the lawns in the backgrounds.",
+        "The parking is just excellent, Big rooms for big movings"
+      ],
+      "questions": [
+        "How many blocks are there in this apartment?",
+        "What is the response time for the support services?"
+      ]
+    },{
+      "id": "13",
+      "name": "Li Paletu",
+      "availableUnits": "0",
+      "blockTypes": "Bed sitters",
+      "image": "https://pictures-kenya.jijistatic.com/20050684_MTYwMC0xMjAwLWJiODk1MGRlYjc.jpg",
+      "location": "zimmerman",
+      "likes": "27",
+      "comments": [
+        "Water is never an issue"
+      ],
+      "questions": [
+        "How many blocks are there in this apartment?",
+        "What is the response time for the support services?"
+      ]
+    },{
+      "id": "14",
+      "name": "Muraho Hangs",
+      "availableUnits": "4",
+      "blockTypes": "One bedrooms",
+      "image": "https://sokodirectory.com/wp-content/uploads/2020/06/IMG-20200625-WA0000-e1593060204984.jpg",
+      "location": "zimmerman",
+      "likes": "23",
+      "comments": [
+        "Can never leave here",
+        "The parking is just excellent, Big rooms for big movings"
+      ],
+      "questions": [
+        "How many blocks are there in this apartment?",
+        "What is the response time for the support services?"
+      ]
+    },{
+      "id": "15",
+      "name": "The Looks",
+      "availableUnits": "0",
+      "blockTypes": "Two bedrooms",
+      "image": "http://nyumbalink.com/file_upload/images/listing/files/1522165472_5945_555668714476323_199319.gif",
+      "location": "Kahawa",
+      "likes": "11",
+      "comments": [
+        "Just the colour, a lil bit.",
+        "The waal shade, some bit yuckish."
+      ],
+      "questions": [
+        "How many blocks are there in this apartment?",
+        "What is the response time for the support services?"
+      ]
+    },{
+      "id": "16",
+      "name": "Panther",
+      "availableUnits": "3",
+      "blockTypes": "Two bedroom",
+      "image": "https://lacasa.co.ke/public/images/property/6891/1608367947_125933040_1913751808772068_3817541960409433086_n.jpg",
+      "location": "Zimmerman",
+      "likes": "2",
+      "comments": [
+        "Quite a huge issue with water.",
+        "Spacious rooms though."
+      ],
+      "questions": [
+        "How many blocks are there in this apartment?",
+        "What is the response time for the support services?"
+      ]
+    },{
+      "id": "17",
+      "name": "Jimca Arcade",
+      "availableUnits": "2",
+      "blockTypes": "one Bedrooms",
+      "image": "https://media.jumiadeals.com/ke_live/1dfdce47b05ee63bfe6463b.mobile-gallery-large.jpg",
+      "location": "Kiambu",
+      "likes": "14",
+      "comments": [
+        "I like rooftop ",
+        "A bit on clothelines"
+      ],
+      "questions": [
+        "How many blocks are there in this apartment?",
+        "What is the response time for the support services?"
+      ]
+    },{
+      "id": "18",
+      "name": "The Colour",
+      "availableUnits": "0",
+      "blockTypes": "Bed sitters",
+      "image": "https://www.eazzyrent.com/propertyimages/0002291001.jpg",
+      "location": "Kahawa",
+      "likes": "17",
+      "comments": [
+        "waste collection a bit wanting.",
+        "The mainteners do ther homework."
+      ],
+      "questions": [
+        "How many blocks are there in this apartment?",
+        "What is the response time for the support services?"
+      ]
+    },{
+      "id": "19",
+      "name": "Big Canopy",
+      "availableUnits": "9",
+      "blockTypes": "Two bedrooms",
+      "image": "https://propscout.co.ke/storage/properties/files/flat-and-apartments/2-bedroom-apartment-for-rent-in-riruta-34ppq.jpg",
+      "location": "zimmerman",
+      "likes": "5",
+      "comments": [
+        "The city council should just close this place down.",
+        "A rude caretaker."
+      ],
+      "questions": [
+        "How many blocks are there in this apartment?",
+        "What is the response time for the support services?"
+      ]
+    },{
+      "id": "20",
+      "name": "The Pinacle",
+      "availableUnits": "3",
+      "blockTypes": "Bed sitters",
+      "image": "https://rentpath-res.cloudinary.com/w_400,h_250,t_rp,cs_tinysrgb,fl_force_strip,c_fill,q_auto:low,dpr_1.0/e_unsharp_mask:50/b45581fbb03ba0cb0bf53ce0a26a9ef7",
+      "location": "Kahawa",
+      "likes": "4",
+      "comments": [
+        "No other ever close",
+        "Springy chills, you would love it."
+      ],
+      "questions": [
+        "How many blocks are there in this apartment?",
+        "What is the response time for the support services?"
+      ]
+    },{
+      "id": "21",
+      "name": "Fortress",
+      "availableUnits": "4",
+      "blockTypes": "One Bedrooms",
+      "image": "https://urbanhaos.com/storage/images/l/244cf6a5962b675607017344c8c1188a.jpg",
+      "location": "Kiambu",
+      "likes": "67",
+      "comments": [
+        "Congested but still ecellently serviced.",
+        "The parking is just excellent, Big rooms for big movings"
+      ],
+      "questions": [
+        "How many blocks are there in this apartment?",
+        "What is the response time for the support services?"
+      ]
+    },{
+      "id": "22",
+      "name": "Tripple O's",
+      "availableUnits": "1",
+      "blockTypes": "Two bedroom",
+      "image": "https://images1.forrent.com/i2/B1lhB0rVkUTq_bX5iTAIdroyKPx-nCEpoBuJxNM3YLU/117/image.jpg",
+      "location": "Kiambu",
+      "likes": "4",
+      "comments": [
+        "Executive standard.",
+        "Nothing compares."
+      ],
+      "questions": [
+        "How many blocks are there in this apartment?",
+        "What is the response time for the support services?"
+      ]
+    },{
+      "id": "23",
+      "name": "Gravitation",
+      "availableUnits": "0",
+      "blockTypes": "one Bedroom",
+      "image": "https://mediavault.point2.com/p2h/listing/fcb9/55df/4758/27c6ed16bc2f8895a8df/nwm_large.jpg",
+      "location": "Ruiru",
+      "likes": "13",
+      "comments": [
+        "A trial on tenants patience",
+        "The parking is just excellent, Big rooms for big movings"
+      ],
+      "questions": [
+        "How many blocks are there in this apartment?",
+        "What is the response time for the support services?"
+      ]
+    },{
+      "id": "24",
+      "name": "The Capital",
+      "availableUnits": "3",
+      "blockTypes": "One Bedrooms",
+      "image": "https://www.canaanproperties.co.ke/wp-content/uploads/2020/08/2-bedroom-to-let-in-ngong-racecourse1.jpg",
+      "location": "RoySambu",
+      "likes": "14",
+      "comments": [
+        "The real Roy.",
+        "The place watch Tower"
+      ],
+      "questions": [
+        "How many blocks are there in this apartment?",
+        "What is the response time for the support services?"
+      ]
+    },{
+      "id": "25",
+      "name": "Plot 546",
+      "availableUnits": "2",
+      "blockTypes": "Two bedrooms",
+      "image": "https://airduka.com/storage/product_images/2021/v1/products/img-2097-20210731211102_thumb.jpeg",
+      "location": "InnerCore",
       "likes": "0",
       "comments": [
-        "Wonderful balconies.",
-        "The parking is just excellent, Big rooms for big movings"
+        "The agents are just not doing it.",
+        "Needs patience, haha"
+      ],
+      "questions": [
+        "How many blocks are there in this apartment?",
+        "What is the response time for the support services?"
+      ]
+    },{
+      "id": "26",
+      "name": "Kimson",
+      "availableUnits": "0",
+      "blockTypes": "Three Bedrooms",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbYf3vX9AUw0ikVf3N2R5Tg_U-2E-lWVzMgg&usqp=CAU",
+      "location": "Utawala",
+      "likes": "32",
+      "comments": [
+        "Try their client service.",
+        "Water available always."
+      ],
+      "questions": [
+        "How many blocks are there in this apartment?",
+        "What is the response time for the support services?"
+      ]
+    },{
+      "id": "27",
+      "name": "Glass Corridors",
+      "availableUnits": "1",
+      "blockTypes": "Bed sitters",
+      "image": "https://www.gannett-cdn.com/-mm-/93f7db0d8e07a1a1a927e1c9d7259df47ef929e4/c=86-0-3514-1937/local/-/media/2015/12/03/Brevard/Brevard/635847494104388184-Hi-res-Highline.jpg?width=660&height=373&fit=crop&format=pjpg&auto=webp",
+      "location": "Innercore",
+      "likes": "0",
+      "comments": [
+        "Best around",
+        "Better than Kilimani"
+      ],
+      "questions": [
+        "How many blocks are there in this apartment?",
+        "What is the response time for the support services?"
+      ]
+    },{
+      "id": "28",
+      "name": "The pine",
+      "availableUnits": "3",
+      "blockTypes": "One bedrooms",
+      "image": "https://www.dwjonesmanagement.com/wp-content/uploads/Back-North-1-960x720.jpg",
+      "location": "Kiambu",
+      "likes": "34",
+      "comments": [
+        "The breeaze favours no infants.",
+        "A bit low on spacing."
+      ],
+      "questions": [
+        "How many blocks are there in this apartment?",
+        "What is the response time for the support services?"
+      ]
+    },{
+      "id": "29",
+      "name": "Fading views",
+      "availableUnits": "0",
+      "blockTypes": "Bed sitters",
+      "image": "https://photos.zillowstatic.com/fp/4fb7e7895373798c9b3d019c2d9b9b07-f_b.jpg",
+      "location": "Kahawa",
+      "likes": "34",
+      "comments": [
+        "The Market Neighbour",
+        "Amazing walks."
+      ],
+      "questions": [
+        "How many blocks are there in this apartment?",
+        "What is the response time for the support services?"
+      ]
+    },{
+      "id": "30",
+      "name": "Spilly Spiral",
+      "availableUnits": "2",
+      "blockTypes": "Three Bedrooms",
+      "image": "https://www.pazuriassist.com/photos/988d5b.jpg",
+      "location": "RoySambu",
+      "likes": "34",
+      "comments": [
+        "Don't think there will ever be a vacant.",
+        "This is really a haven."
       ],
       "questions": [
         "How many blocks are there in this apartment?",

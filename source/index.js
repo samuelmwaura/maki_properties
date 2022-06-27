@@ -50,9 +50,16 @@ function displayPropertyMenu(properties){
   const propertiesList = document.querySelector('#propertiesList');
   properties.forEach(property=>{
   const propertyItem = document.createElement('li');
-  propertyItem.textContent =`${property.name}   ${property.location}`;
+  propertyItem.textContent =property.name;
+  propertyItem.addEventListener('mouseover',(event)=> event.target.style.color = 'brown');
+  propertyItem.addEventListener('mouseout',(event)=> event.target.style.color = 'inherit');
+  propertyItem.addEventListener('click',function(event){
+  const clickedProperty = propertiesArray .find(property=>property.name === event.target.textContent);
+  displayAProperty(clickedProperty)   //To display the details of the clicked property.
+  });
   propertiesList.appendChild(propertyItem);
 
+  //on click to go back to all properties.
   document.querySelector('#allProperties').addEventListener('click',function(){
   document.querySelectorAll('.propertyCard').forEach(card=>card.style.display = 'inline-grid');
   document.querySelector('#propertiesList').style.display = 'none';
@@ -61,6 +68,7 @@ function displayPropertyMenu(properties){
 })
 };
 
+
 //When a property card is clicked
 function onCardClick(event){
   document.querySelector('#propertiesList').style.display = 'block';
@@ -68,9 +76,7 @@ function onCardClick(event){
   document.querySelectorAll('.propertyCard').forEach(card=>card.style.display = 'none')
   const questions = document.querySelector('#questionsTab');
   questions.style.height = '1.4em';
-  questions.addEventListener('click',()=>questions.style.height = '15em')
-  event.target.parentNode.id//get the value of the id of the div - the property's Id
-
+  questions.addEventListener('click',()=>questions.style.height = '15em') 
   const propertyFocused = propertiesArray.find(property=>property.id === event.target.parentNode.id);
   displayAProperty(propertyFocused);
 } 
@@ -83,6 +89,7 @@ document.querySelectorAll('#onePropertyDetails p')[0].textContent = propertyFocu
 document.querySelectorAll('#onePropertyDetails p')[1].textContent = propertyFocused.location;
 document.querySelectorAll('#onePropertyDetails div p')[0].textContent = propertyFocused.likes;
 const commentList = document.querySelector('#PropertyComments');
+Array.from(commentList.children).forEach(child=>child.remove());  //remove listed create by the previous displayed property.
 propertyFocused.comments.forEach(comment=>{
   const newListComment = document.createElement('li')
   newListComment.textContent = comment;
