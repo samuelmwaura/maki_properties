@@ -113,6 +113,11 @@ document.querySelector('#commentForm').addEventListener('submit',(event)=>{
 event.preventDefault();
 const enteredComment = document.querySelector('#comment').value
 propertyFocused.comments.unshift(enteredComment);
+
+const newComment = document.createElement('li');
+  newComment.textContent = enteredComment
+  document.querySelector('#PropertyComments').appendChild(newComment);
+
  fetch(`https://samuelmwaura.github.io/maki_properties/db.json/properties/${propertyFocused.id}`,{
    method:'PATCH',
    headers:{
@@ -123,9 +128,9 @@ propertyFocused.comments.unshift(enteredComment);
  })
  .then(response=>response.json())
  .then(updatedProperty=>{
-  const newComment = document.createElement('li');
-  newComment.textContent = enteredComment
-  document.querySelector('#PropertyComments').appendChild(newComment);
+  // const newComment = document.createElement('li');
+  // newComment.textContent = enteredComment
+  // document.querySelector('#PropertyComments').appendChild(newComment);
  })
  .catch(error=>console.log(error))
 });
@@ -135,6 +140,10 @@ propertyFocused.comments.unshift(enteredComment);
 function addAlike(propertyFocused){
 document.querySelector('#likeButton').addEventListener('click',(event)=>{
   propertyFocused.likes = parseInt(propertyFocused.likes) + 1;
+  document.querySelector('#likeButton').textContent = `♥ ${propertyFocused.likes}`
+  document.querySelectorAll('#onePropertyDetails p')[3].textContent =  `${propertyFocused.likes} Likes.`;
+
+
   fetch(`https://samuelmwaura.github.io/maki_properties/db.json/properties/${propertyFocused.id}`,{
     method:'PATCH',
     headers:{
@@ -145,8 +154,8 @@ document.querySelector('#likeButton').addEventListener('click',(event)=>{
   })
   .then(response=>response.json())
   .then(likedProperty=>{
-    document.querySelector('#likeButton').textContent = `♥ ${likedProperty.likes}`
-    document.querySelectorAll('#onePropertyDetails p')[3].textContent =  `${likedProperty.likes} Likes.`;
+    // document.querySelector('#likeButton').textContent = `♥ ${likedProperty.likes}`
+    // document.querySelectorAll('#onePropertyDetails p')[3].textContent =  `${likedProperty.likes} Likes.`;
   })
   .catch(error=>console.log(error))
 })
