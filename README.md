@@ -12,6 +12,11 @@ The following are the technologies that have been used to realise this project:
   2. CSS
   3. Javascript.
 
+## Branches and versions
+
+ This app maintains two different versions in two different branches: `main` and `gh-pages`. The `main` contains code for the project hostable in a local machine and that would use`json-server`.This code has all `GET` and `PATCH` methods of fetch working and DOM update is after successful update of the `db.json` file.
+ The `gh-pages` branch contains code with slightly modified endpoints inorder to make them accessible live while hosted in github pages. The `PATCH` methods are disabled since gh-pages doesn't support and the fetch all endpoint updated to that of the live application link. DOM however is updated before the updating fetch asynchronous code 
+
   ## Get a copy/ personify.
 
 The following is the process of getting your own copy of the project.
@@ -29,7 +34,7 @@ The following is the process of getting your own copy of the project.
    ## Accessing the hosted project.
    
 This project is hosted in Git pages and the live version can be accessed using the link:
-[Maki properties]().
+[Maki properties](https://samuelmwaura.github.io/maki_properties/).
 
    ## License.
    This project is under the following licenses:
