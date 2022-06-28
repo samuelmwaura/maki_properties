@@ -7,9 +7,8 @@
       "blockTypes": "one bedrooms",
       "image": "https://maskanikenya.co.ke/assets/uploads/128257112_107093327902449_.jpg  ",
       "location": "Ruiru",
-      "likes": 1,
+      "likes": 3,
       "comments": [
-        "",
         "Trial of the comment.",
         "Ocre red red",
         "Nice Balconies.",
@@ -62,9 +61,8 @@
       "blockTypes": "Two bedrooms",
       "image": "https://s3.us-east-2.amazonaws.com/images.propertypro.africa/large/1-bedroom-apartment-flat-zhMIE07zf9VNuWMGFGRl.png",
       "location": "Ruiru",
-      "likes": "0",
+      "likes": 2,
       "comments": [
-        "",
         "A lil bit of risk from the low balconies.",
         "House in the woods and woods"
       ],
@@ -80,7 +78,7 @@
       "blockTypes": "one bedrooms",
       "image": "https://kultaproperties.com/public/uploads/property_attachment/avatar/1759/Image_10.jpg",
       "location": "Kahawa",
-      "likes": 4,
+      "likes": 5,
       "comments": [
         "",
         "The windows are just a blast.",
@@ -98,8 +96,11 @@
       "blockTypes": "one bedrooms",
       "image": "https://d2azlbvzqexp1.cloudfront.net/images/2022/May/26/kekztwnhyev/CV1_9wEoROwbN.jpeg",
       "location": "Kahawa",
-      "likes": 38,
+      "likes": 39,
       "comments": [
+        "cool",
+        "",
+        "",
         "",
         "I like the colour.",
         "Great balconies.",
@@ -117,7 +118,7 @@
       "blockTypes": "one bedrooms",
       "image": "https://i.roamcdn.net/prop/brk/listing-thumb-376w/8a6c18110a2e2029a81e0c901a1bec57/-/prod-property-core-backend-media-brk/3062995/fce2c867-ce5a-46d5-b18d-ef7bb564ae23.jpg",
       "location": "Kiambu",
-      "likes": 5,
+      "likes": 6,
       "comments": [],
       "questions": [
         "How many blocks are there in this apartment?",
@@ -150,7 +151,7 @@
       "blockTypes": "Two bedrooms",
       "image": "https://images.kenyapropertycentre.com/properties/images/3204/15f1da1cec8994-a-2-bedrooms-apartment-for-rent-nairobi-central-nairobi.jpg",
       "location": "Kiambu",
-      "likes": 20,
+      "likes": 22,
       "comments": [
         "The staircase is just replendent.",
         "The parking is just excellent, Big rooms for big movings"
@@ -183,7 +184,7 @@
       "blockTypes": "Two bedrooms",
       "image": "https://images1.apartments.com/i2/J_aVVDy_P8WN_Ll70vEmRX8ezEdFGkhP52u-ORsl2mg/117/depot-on-main-zimmerman-mn-primary-photo.jpg",
       "location": "Kiambu",
-      "likes": "31",
+      "likes": 32,
       "comments": [
         "I like the lawns in the backgrounds.",
         "The parking is just excellent, Big rooms for big movings"
@@ -216,7 +217,7 @@
       "blockTypes": "One bedrooms",
       "image": "https://sokodirectory.com/wp-content/uploads/2020/06/IMG-20200625-WA0000-e1593060204984.jpg",
       "location": "zimmerman",
-      "likes": "23",
+      "likes": 24,
       "comments": [
         "",
         "",
@@ -252,8 +253,11 @@
       "blockTypes": "Two bedroom",
       "image": "https://lacasa.co.ke/public/images/property/6891/1608367947_125933040_1913751808772068_3817541960409433086_n.jpg",
       "location": "Zimmerman",
-      "likes": "2",
+      "likes": 4,
       "comments": [
+        "cool",
+        "",
+        "",
         "",
         "Quite a huge issue with water.",
         "Spacious rooms though."
@@ -270,7 +274,7 @@
       "blockTypes": "one Bedrooms",
       "image": "https://media.jumiadeals.com/ke_live/1dfdce47b05ee63bfe6463b.mobile-gallery-large.jpg",
       "location": "Kiambu",
-      "likes": "14",
+      "likes": 15,
       "comments": [
         "I like rooftop ",
         "A bit on clothelines"
@@ -323,7 +327,7 @@
       "blockTypes": "Bed sitters",
       "image": "https://rentpath-res.cloudinary.com/w_400,h_250,t_rp,cs_tinysrgb,fl_force_strip,c_fill,q_auto:low,dpr_1.0/e_unsharp_mask:50/b45581fbb03ba0cb0bf53ce0a26a9ef7",
       "location": "Kahawa",
-      "likes": "4",
+      "likes": 7,
       "comments": [
         "No other ever close",
         "Springy chills, you would love it."

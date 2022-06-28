@@ -1,6 +1,6 @@
 let propertiesArray = [];
 document.addEventListener('DOMContentLoaded',function (){
-    fetch('https://samuelmwaura.github.io/maki_properties/db.json/properties')
+    fetch('https://samuelmwaura.github.io/maki_properties/db.json')
     .then(response=>response.json())
     .then(properties=>{
       propertiesArray = [...properties];
