@@ -1,8 +1,9 @@
 let propertiesArray = [];
 document.addEventListener('DOMContentLoaded',function (){
-    fetch('https://samuelmwaura.github.io/maki_properties/db.json')
+    fetch('https://samuelmwaura.github.io/maki_properties/db.json')  //fetches the data as the single-whole json object.
     .then(response=>response.json())
-    .then(properties=>{
+    .then(propertiesObject=>{
+      const properties = [...propertiesObject.properties];     //access the array in  the big json object
       propertiesArray = [...properties];
       displayProperties(properties);
       displayQuestions(properties);
