@@ -1,6 +1,6 @@
 let propertiesArray = [];
 document.addEventListener('DOMContentLoaded',function (){
-    fetch('http://localhost:3000/properties')
+    fetch('https://raw.githubusercontent.com/samuelmwaura/maki_properties/main/db.json/properties')
     .then(response=>response.json())
     .then(properties=>{
       propertiesArray = [...properties];
@@ -112,7 +112,7 @@ document.querySelector('#commentForm').addEventListener('submit',(event)=>{
 event.preventDefault();
 const enteredComment = document.querySelector('#comment').value
 propertyFocused.comments.unshift(enteredComment);
- fetch(`http://localhost:3000/properties/${propertyFocused.id}`,{
+ fetch(`https://raw.githubusercontent.com/samuelmwaura/maki_properties/main/db.json/properties/${propertyFocused.id}`,{
    method:'PATCH',
    headers:{
      'Content-Type':'application/json',
@@ -134,7 +134,7 @@ propertyFocused.comments.unshift(enteredComment);
 function addAlike(propertyFocused){
 document.querySelector('#likeButton').addEventListener('click',(event)=>{
   propertyFocused.likes = parseInt(propertyFocused.likes) + 1;
-  fetch(`http://localhost:3000/properties/${propertyFocused.id}`,{
+  fetch(`https://raw.githubusercontent.com/samuelmwaura/maki_properties/main/db.json/properties/${propertyFocused.id}`,{
     method:'PATCH',
     headers:{
       "Content-Type":'application/json',
