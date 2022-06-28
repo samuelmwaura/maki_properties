@@ -1,6 +1,6 @@
 let propertiesArray = [];
 document.addEventListener('DOMContentLoaded',function (){
-    fetch('https://samuelmwaura.github.io/maki_properties/db.json')
+    fetch('http://localhost:3000/properties')
     .then(response=>response.json())
     .then(properties=>{
       propertiesArray = [...properties];
@@ -112,7 +112,7 @@ document.querySelector('#commentForm').addEventListener('submit',(event)=>{
 event.preventDefault();
 const enteredComment = document.querySelector('#comment').value
 propertyFocused.comments.unshift(enteredComment);
- fetch(`https://samuelmwaura.github.io/maki_properties/db.json/properties/${propertyFocused.id}`,{
+ fetch(`http://localhost:3000/properties/${propertyFocused.id}`,{
    method:'PATCH',
    headers:{
      'Content-Type':'application/json',
@@ -134,7 +134,7 @@ propertyFocused.comments.unshift(enteredComment);
 function addAlike(propertyFocused){
 document.querySelector('#likeButton').addEventListener('click',(event)=>{
   propertyFocused.likes = parseInt(propertyFocused.likes) + 1;
-  fetch(`https://samuelmwaura.github.io/maki_properties/db.json/properties/${propertyFocused.id}`,{
+  fetch(`http://localhost:3000/properties/${propertyFocused.id}`,{
     method:'PATCH',
     headers:{
       "Content-Type":'application/json',
